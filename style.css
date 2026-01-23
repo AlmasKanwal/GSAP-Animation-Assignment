@@ -6,7 +6,7 @@
 }
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: "Heebo", sans-serif;
 }
 
@@ -30,7 +30,7 @@ body{
 .hero-sec .wrapper h1{
     font-size: 46px;
     font-family: "Fira Sans", sans-serif;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .hero-sec .wrapper p{
@@ -38,7 +38,65 @@ body{
     font-size: 22px;
 }
 
+#FormBox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
+#FormBox input{
+    padding: 10px;
+    border: 1px solid #939393;
+}
 
+#FormBox button{
+    background-color: #4950F6;
+    padding: 12px 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
+.hero-sec .box1{
+    width: 220px;
+    height: 220px;
+    background-color: #f16078;
+    border-radius: 50%;
+}
+
+.hero-sec .box2{
+    width: 88px;
+    height: 88px;
+    background-color: #f6a4b2;
+    border-radius: 50%;
+}
+
+.hero-sec .box3{
+    width: 40px;
+    height: 40px;
+    background-color: #f3e5c8;
+    border-radius: 50%;
+}
+
+.hero-sec .box4{
+    width: 64px;
+    height: 64px;
+    background-color: #e67545;
+    border-radius: 50%;
+}
+
+.hero-sec .box5{
+    width: 24px;
+    height: 24px;
+    background-color: #0ce1c5;
+    border-radius: 50%;
+}
+
+.iconsWrapper{
+    display: flex;
+    justify-content: center;
+}
 /* =============== Hero Section End =============== */
