@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    overflow: hidden;
+    font-family: "Heebo", sans-serif;
+}
+
+
+/* =============== Hero Section Start =============== */
+.hero-sec .header-logo{
+    padding: 10px;
+    background-color: burlywood;
+}
+
+.hero-sec .header-logo img{
+    width: 35px;
+}
+
+.hero-sec .wrapper{
+    display: flex;
+    gap: 30px;
+    padding:100px 10px;
+}
+
+.hero-sec .wrapper h1{
+    font-size: 46px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 900;
+}
+
+.hero-sec .wrapper p{
+    color: #565678;
+    font-size: 22px;
+}
+
+
+
+
+/* =============== Hero Section End =============== */
