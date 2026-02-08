@@ -26,66 +26,221 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body id="body">
+<body>
     <!-- =============== Hero Section Start =============== -->
-    <div class="hero-sec">
+    <section class="hero-sec">
+        <!-- Background floating circles -->
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+
         <div class="container-xxl">
-            <div class="header-logo">
-                <img src="./assets/logo.png" alt="logo">
-            </div>
-
-            <!-- Circle Animation Start -->
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box3"></div>
-            <div class="box4"></div>
-            <div class="box5"></div>
-            <!-- Circle Animation End -->
-
             <div class="wrapper">
+                <!-- Left Content -->
                 <div class="left-content">
                     <h1>Landing template for startups</h1>
                     <p>Our landing page template works on all devices, so you only have to set it up once, and get
                         beautiful
                         results forever.</p>
-
                     <form id="FormBox">
-                        <input type="email" placeholder="Your best email...">
-                        <button type="submit">Early Access</button>
+                        <input type="email" placeholder="Your best email..." required>
+                        <button type="submit">EARLY ACCESS</button>
                     </form>
                 </div>
 
+                <!-- Right Content -->
                 <div class="right-content">
-                    <div class="imgWrapper">
-                        <img src="./assets/hero-img1.png" alt="Pic 1">
-                        <img src="./assets/hero-img2.png" alt="Pic 2">
-                    </div>
+                    <!-- SVG Circle -->
+                    <div class="circle-container">
+                        <svg class="big-circle" viewBox="0 0 520 520">
+                            <circle cx="260" cy="260" r="230"></circle>
+                        </svg>
 
-                    <div class="iconsWrapper">
-                        <div class="icon-div">
-                            <div class="emoji">😊</div>
+                        <!-- Images -->
+                        <div class="imgWrapper">
+                            <img src="./assets/hero-img-1.jfif" alt="Dashboard" class="hero-1">
+                            <img src="./assets/hero-img-2.jfif" alt="Analytics" class="hero-2">
                         </div>
 
-                        <div class="icon-div">
-                            <div class="emoji">🤞</div>
-                        </div>
-
-                        <div class="icon-div">
-                            <div class="emoji">👉🏻</div>
-                        </div>
-
-                        <div class="icon-div">
-                            <div class="emoji">🤏🏽</div>
+                        <!-- Icon Bubbles -->
+                        <div class="iconsWrapper">
+                            <div class="icon-div icon-1">😊</div>
+                            <div class="icon-div icon-2">🤞</div>
+                            <div class="icon-div icon-3">👍</div>
+                            <div class="icon-div icon-4">🤏</div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
-    </div>
+    </section>
 
     <!-- =============== Hero Section End =============== -->
+
+
+    <!-- =============== Meet Section Start ===============  -->
+    <div class="meet-section">
+        <div class="container-xxl">
+            <div class="headings">
+                <h2>Meet April</h2>
+                <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or
+                    visual presentation.</p>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-icon">
+                            <i class="fa-brands fa-leanpub"></i>
+                        </div>
+                        <h5 class="card-title">Powerful</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                            obcaecati.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-icon" style="border: 10px solid #ffa99a;">
+                            <i class="fa-solid fa-mobile-screen" style="color: #ffa99a;"></i>
+                        </div>
+                        <h5 class="card-title">Powerful</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                            obcaecati.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-icon" style="border: 10px solid #55fae7;">
+                            <i class="fa-solid fa-arrows-to-circle" style="color: #55fae7;"></i>
+                        </div>
+                        <h5 class="card-title">Powerful</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                            obcaecati.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-icon" style="border: 10px solid #7b85f8;">
+                            <i class="fa-solid fa-chart-column" style="color: #7b85f8;"></i>
+                        </div>
+                        <h5 class="card-title">Powerful</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                            obcaecati.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- =============== Meet Section End ===============  -->
+
+
+    <!-- =============== Testimonials Section Start ===============  -->
+    <section class="testimonials-section">
+        <div class="testimonials-container">
+
+            <div class="blue-circle-wrapper">
+                <svg class="blue-circle" viewBox="0 0 500 500">
+                    <circle cx="250" cy="250" r="230"></circle>
+                </svg>
+            </div>
+
+            <div class="testimonial-card testimonial-1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div class="username">@martajones</div>
+            </div>
+
+            <div class="testimonial-card testimonial-2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div class="username">@michealpahm</div>
+            </div>
+
+            <div class="testimonial-card testimonial-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div class="username">@markbrown</div>
+            </div>
+
+            <!-- Profile Images -->
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Marta Jones" class="profile-img profile-1">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Micheal Pahm" class="profile-img profile-2">
+            <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Mark Brown" class="profile-img profile-3">
+
+            <!-- Decorative Shapes -->
+            <div class="deco-shape deco-pink"></div>
+            <div class="deco-shape deco-cyan"></div>
+            <div class="quote-mark">"</div>
+        </div>
+    </section>
+    <!-- =============== Testimonials Section End ===============  -->
+
+
+
+    <!-- =============== Footer Start ===============  -->
+    <footer>
+        <!-- Background Decorative Circle -->
+        <div class="footer-bg-circle"></div>
+
+        <div class="container-xxl">
+            <!-- CTA Section -->
+            <div class="footer-cta">
+                <h2>Stay in the know</h2>
+                <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or
+                    visual presentation.</p>
+                <form class="footer-form">
+                    <input type="email" placeholder="Your best email..." required>
+                    <button type="submit">EARLY ACCESS</button>
+                </form>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <!-- Left Side -->
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <div class="footer-copyright">
+                        © 2018 April, all rights reserved
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="footer-right">
+                    <!-- Navigation Links -->
+                    <ul class="footer-links">
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#faq">FAQ's</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+
+                    <!-- Social Icons -->
+                    <div class="footer-social">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Google">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- =============== Footer Start ===============  -->
 
 
 
